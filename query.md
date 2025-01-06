@@ -1,5 +1,5 @@
 # Insert data
-Tải dữ liệu về dạng .sql và insert vào db fpt:
+Download data sql format and insert into database fpt:
 ```bash
 mysql -u root -p fpt < "C:\Users\HI.WELCOME TO NET\Downloads\create_mavenfuzzyfactory.sql"
 ```
