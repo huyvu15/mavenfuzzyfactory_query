@@ -22,6 +22,10 @@ GROUP BY yr , qtr
 ORDER BY yr , qtr;
 ```
 
+**Result:**
+
+![](etc/1.png)
+
 ## 2. Measure Company Performance
 
 ```sql
@@ -40,6 +44,11 @@ FROM
 GROUP BY yr , qtr
 ORDER BY yr , qtr;
 ```
+
+**Result:**
+
+![](etc/2.png)
+
 ## 3. Analyze Growth Across Different Categories
 
 ```sql
@@ -81,6 +90,10 @@ FROM
 GROUP BY yr , qrt
 ORDER BY yr , qrt;
 ```
+**Result:**
+
+![](etc/3.png)
+
 ## 4. Conversion Rate Analysis by Category
 
 ```sql
@@ -107,8 +120,10 @@ FROM website_sessions ws
 LEFT JOIN orders o ON ws.website_session_id = o.website_session_id
 GROUP BY yr, qrt
 ORDER BY yr, qrt;
-
 ```
+**Result:**
+
+![](etc/4.png)
 
 ## 5. Conversion Rate Analysis by Category
 
