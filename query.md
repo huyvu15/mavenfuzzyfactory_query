@@ -6,7 +6,7 @@ mysql -u root -p fpt < "C:\Users\HI.WELCOME TO NET\Downloads\create_mavenfuzzyfa
 
 # Implement query
 
-## Analyze Website Growth Trend (Sessions & Orders)
+## 1. Analyze Website Growth Trend (Sessions & Orders)
 
 ```sql
 SELECT 
@@ -22,7 +22,7 @@ GROUP BY yr , qtr
 ORDER BY yr , qtr;
 ```
 
-## Measure Company Performance
+## 2. Measure Company Performance
 
 ```sql
 SELECT 
@@ -40,7 +40,7 @@ FROM
 GROUP BY yr , qtr
 ORDER BY yr , qtr;
 ```
-## Analyze Growth Across Different Categories
+## 3. Analyze Growth Across Different Categories
 
 ```sql
 SELECT 
@@ -81,7 +81,7 @@ FROM
 GROUP BY yr , qrt
 ORDER BY yr , qrt;
 ```
-## Conversion Rate Analysis by Category
+## 4. Conversion Rate Analysis by Category
 
 ```sql
 -- Tỷ lệ chuyển đổi (Conversion Rate) theo năm, quý và nguồn truy cập
@@ -110,7 +110,7 @@ ORDER BY yr, qrt;
 
 ```
 
-## Conversion Rate Analysis by Category
+## 5. Conversion Rate Analysis by Category
 
 ```sql
 SELECT
@@ -134,7 +134,7 @@ ORDER BY yr, no;
 ```
 
 
-## Revenue and Profit Analysis
+## 6. Revenue and Profit Analysis
 
 
 ```sql
