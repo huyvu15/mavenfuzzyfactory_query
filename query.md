@@ -147,7 +147,9 @@ JOIN products p ON oi.product_id = p.product_id
 GROUP BY yr, no
 ORDER BY yr, no;
 ```
+**Result:**
 
+![](etc/5.png)
 
 ## 6. Revenue and Profit Analysis
 
@@ -181,5 +183,6 @@ LEFT JOIN orders o ON wp.website_session_id = o.website_session_id
 GROUP BY yr, no
 ORDER BY yr, no;
 ```
+**Result:**
 
-
+![](etc/6.png)
