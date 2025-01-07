@@ -1,3 +1,20 @@
+# Introduce 
+Company A, having been established for some time, is now preparing for a funding round with venture capital investors. Your task is to use your analytical skills to present a compelling picture of the company's exceptional growth.
+In this assignment, you will act as a Data Analyst assisting the CEO of Company A in crafting a data-driven story. Using your expertise in data analysis and website performance metrics, you will extract insights and create a narrative that demonstrates the company's growth trajectory.
+Your responsibilities are two fold:
+1. Extract and analyze data.
+2. Convey a compelling story based on the analysis.
+
+## Dataset
+The dataset contains six tables:
+1. **order_item_refunds**: Refund details for products in order.
+2. **order_items**: Product details within orders.
+3. **orders**: Order information.
+4. **products**: Product details.
+5. **website_pageviews**: Website pageview data.
+6. **website_sessions**: Website session data.
+
+
 # Insert data
 Download data sql format and insert into database fpt:
 ```bash
